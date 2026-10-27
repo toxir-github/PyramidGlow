@@ -1,0 +1,32 @@
+# Build directories
+
+build/
+cmake-build-*/
+out/
+
+# Visual Studio files
+
+.vs/
+*.sln
+*.vcxproj*
+*.user
+
+# Compiled binaries
+
+*.ofx
+*.dll
+*.pdb
+*.obj
+*.lib
+
+# CMake generated files
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Release packages (uploaded separately to GitHub Releases)
+
+PyramidGlow-Windows-x64.zip
+releases/
